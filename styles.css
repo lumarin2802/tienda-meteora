@@ -1,0 +1,49 @@
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.bg-amarillo{
+    color: #DAFF01;
+    
+}
+.text-amarillo{
+    color: #DAFF01;
+}
+
+.botao-lilas{
+    background-color:black;
+}
+.bg-verde{
+    color: green;
+    
+}
+.background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    background-image: url('ruta-de-la-imagen.jpg');
+    background-size: cover;
+    z-index: -1;
+    animation: fade-in 4s ease-in-out;
+    display: flex;
+    
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+
+
